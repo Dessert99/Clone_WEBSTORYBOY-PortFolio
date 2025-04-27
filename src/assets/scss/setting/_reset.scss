@@ -46,6 +46,7 @@ input,
 select,
 table,
 textarea {
+  //왼쪽부터 차례로 사용자가 갖고 있는 폰트로 웹 페이지가 보인다.
   font-family: var(--mainEng-font), var(--mainKor-font), 'Apple SD Gothic Neo', 'Malgun Gothic', '맑은 고딕', helvetica,
     sans-serif;
 }
@@ -88,7 +89,7 @@ img {
   width: 100%;
 }
 
-// 스킵메뉴
+// 스킵메뉴 "Tab 키로 본문에 바로 점프할 수 있도록" 숨겨진 링크를 만들고, 접근성(Accessibility)을 높이기 위한 기능이다.
 #skip a {
   position: absolute;
   left: 10px;
