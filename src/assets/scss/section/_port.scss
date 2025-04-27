@@ -1,7 +1,7 @@
 #port {
   width: 100%;
   margin-top: 30vh;
-  //overflow:hiiden;
+  overflow: hidden; // 가로 스크롤 배우고 나서 수정해보자.
 }
 
 .port__inner {
@@ -28,7 +28,7 @@
   .port__wrap {
     display: flex; //display: flex를 쓰면 기본적으로 모든 자식 요소를 가로 방향(수평)으로 나란히 배치하려고 한다.
     flex-wrap: wrap; //기본적으로 flex는 자식들을 한 줄로 무조건 꽉 끼워 넣으려고 하는데, flex-wrap: wrap;을 주면, 공간이 부족하면 줄을 바꿔서 다음 줄로 내려가게 한다
-    width: 1600px;
+    width: 7000px;
 
     .port__item {
       width: 500px;
