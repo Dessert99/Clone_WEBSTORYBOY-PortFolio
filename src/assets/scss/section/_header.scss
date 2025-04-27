@@ -54,7 +54,7 @@
       &.show + .header__nav__mobile span::before {
         width: 20px;
       }
-      &.show + header__nav__mobile span::after {
+      &.show + .header__nav__mobile span::after {
         width: 20px;
       }
     }

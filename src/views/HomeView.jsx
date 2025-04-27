@@ -13,7 +13,6 @@ function HomeView() {
   return (
     <>
       <Skip />
-
       <Header />
       <Main>
         <Intro />
