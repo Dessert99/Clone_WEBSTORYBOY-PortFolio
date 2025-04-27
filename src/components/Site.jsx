@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Site() {
-  return <div></div>;
+  return <section id="site"></section>;
 }
 
 export default Site;
